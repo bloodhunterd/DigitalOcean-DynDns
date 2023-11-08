@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This file ist part of the MotD project, see https://gitlab.com/bloodhunterd-labs/tools/digitalocean-dyndns.
+# © 2023 by BloodhunterD <bloodhunterd@bloodhunterd.com>
+
 while getopts d:r:t: FLAG
 do
     case "$FLAG" in
